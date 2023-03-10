@@ -1,13 +1,11 @@
-// console.log(document);
+const image = document.querySelector(".image");
 
-const body = document.body;
-// console.log(body);
+// console.log(image.attributes); // NamedNodeMap {0: class, 1: src, 2: alt, length: 3}
 
-const list = body.lastElementChild;
-console.log(list);
+// console.log(image.hasAttribute("src")); // true
 
-// const firstListItem = list.firstElementChild;
-// console.log(firstListItem);
+console.log(image.getAttribute("alt")); // "Lake and clouds"
 
-// const listItems = list.children;
-// console.log(listItems);
+// image.setAttribute("alt", "Amazing nature");
+
+// console.log(image.getAttribute("alt")); // Amazing nature
