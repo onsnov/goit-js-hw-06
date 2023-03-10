@@ -13,6 +13,6 @@ changeColor.addEventListener("click", changeBgColor);
 function changeBgColor() { 
 bodyColor.style.backgroundColor = `${getRandomHexColor()}`;
 }
-console.log(body.style.backgroundColor);
+ console.log(bodyColor.style.backgroundColor);
 
 
