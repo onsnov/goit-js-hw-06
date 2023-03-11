@@ -11,9 +11,9 @@ function handlerForm(event) {
   if (email.value === "" || password.value === "") {
     return alert("всі поля повинні бути заповнені");
   } else
-    console.log(`{email: ${email
-      .value}, Password: ${password.value}}`);
-    event.currentTarget.reset();
+    console.log(`email: ${email.value}, Password: ${password.value}`);
+  console.dir(event.currentTarget);
+      event.currentTarget.reset();
 }
 
 
